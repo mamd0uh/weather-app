@@ -1,0 +1,78 @@
+.weatherData {
+    position: relative;
+    margin-top: 1% !important;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #23CACD;
+}
+
+.todayTemp {
+    font-size: 4em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+.todayCity {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #0A0D66;
+    width: 50%;
+}
+
+.display-fahrenheit {
+    width: 300px !important;
+}
+
+.todayDay,
+.todayDesc {
+    font-size: 1em;
+    font-weight: 400;
+    color: #0A0D66;
+}
+
+.todayDesc {
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.weatherData,
+.todayCity,
+.todayDay,
+.todayDesc {
+    padding-left: 12px;
+}
+
+.todayTemp .fahrenheit {
+    font-size: 0.4em;
+    margin-top: 17px;
+    position: absolute;
+}
+
+.todayTemp > img {
+    width: 120px;
+}
+
+.display-fahrenheit > .current {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #0A0D66;
+    border: 1px solid #23CACD;
+    border-radius: 4px;
+    padding: 0 3px;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.today {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    color: #0A0D66;
+    width: 60px !important;
+    background-color: #23CACD;
+    text-align: center;
+    border-top-right-radius: 4px;
+    font-style: 400 !important;
+}
