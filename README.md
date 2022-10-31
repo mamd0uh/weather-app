@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+### React Weather Application
+**Find the current weather of any city on earth with this simple little web app**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-------------
+
+Simple [React](https://facebook.github.io/react/) web application written with js that returns the current weather. The app utilizes:
+* [OpenWeatherMap's ](http://openweathermap.org/) API.
+* [React Router](https://github.com/reactjs/react-router)
+
+
+-------------
+
+How to run the app locally:
+
+1. Run ```npm install``` to install all needed dependencies.
+2. Navigate to [OpenWeatherMap's ](http://openweathermap.org/) and get a free API key. Then, create a file named ```.env``` in the project root and add the following line: ```API_KEY=yourkeyhere```. This will give you access to API_KEY as a global variable anywhere in the client. It allows you to use your API Key while keeping it secret from everyone else.
+3. In the other command prompt run ```npm start```. This command will start your server to host the web app.
+4. Navigate to ```localhost:3000``` to see the app in action
+
+-------------
 
 ## Available Scripts
 
