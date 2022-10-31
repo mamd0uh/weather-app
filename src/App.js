@@ -100,7 +100,7 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/forecast" element={<Forecast/>} />
       </Routes> <br/>
-      {/* <WeeklyWeather updateWeeklyWeather={updateWeeklyWeather} weeklyData={weeklyWeatherData} weekday={weatherData.weekday} /> */}
+
       <Footer/>
 
     </div>
