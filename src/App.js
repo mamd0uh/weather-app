@@ -78,6 +78,31 @@ function App() {
   return (
     <div className="App">
 
+<div className="navbar-main">
+  
+      <NavBar/>
+      </div> <br/>
+
+      {/* <Form getWeather={getWeather} /> */}
+  
+      <Routes>
+      <Route path="/" element={<TodayWeather
+        getWeather={getWeather} 
+        city={temperature.city}
+        country={temperature.country}
+        temp={temperature.temp}
+        time={temperature.time}
+        weekday={temperature.weekday}
+        weatherDescription={temperature.weatherDescription}
+        weatherIcon={temperature.weatherIcon}
+        key={temperature.id}
+      />} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/forecast" element={<Forecast/>} />
+      </Routes> <br/>
+      {/* <WeeklyWeather updateWeeklyWeather={updateWeeklyWeather} weeklyData={weeklyWeatherData} weekday={weatherData.weekday} /> */}
+      <Footer/>
+
     </div>
   );
 }
